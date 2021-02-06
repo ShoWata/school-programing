@@ -1,0 +1,39 @@
+lessons:
+  documentID: lessonID
+
+  explanations:
+    documentID: explanationID
+    contents: Array
+    page: Object
+    title: String
+  
+  exercises:
+    documentID: exerciseID
+    subText: String
+
+    questions:
+      documentID: questionID
+      expText: String
+      page: Object
+      type: String
+      question: Object
+
+students:
+  documentID: studentID
+  name: String
+  school: String
+  class: String
+  groupID: String
+  groupMember: Array
+  overLesson: Number
+
+  exercises:
+    documentID: exerciseID
+    done: Bool
+    code: String
+
+
+
+
+
+  

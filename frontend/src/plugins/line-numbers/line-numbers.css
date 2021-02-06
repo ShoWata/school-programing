@@ -1,0 +1,7 @@
+.line-numbers > code > ol > li::marker {
+	color: #123a52;
+}
+
+.line-numbers > code > ol > li {
+	padding-left: 0.3rem;
+}
